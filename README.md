@@ -1,0 +1,6 @@
+Hello, this is a program that solves a maze. You can build your maze using a grid and the blocks provided and increase/decrease the number of rows and columns using their respective labeled buttons.
+While the algorithm is computing the solution, the text will display "loading...". Once the maze is solved (or the program determines the maze is unsolvable), the text will be replaced with the respective result.
+One thing to note is that my algorithm performs much faster when there is a more complete maze. What I mean by this is that if there are more walls (less open paths), the algorithm will produce a result in a few milliseconds. By contrast, if you build a 100 x 100 maze with a
+very small amount of walls, it might take a minute or two for the algorithm to finish computing as there are more paths it needs to explore. 
+After you are done building your maze, you can click the cyan button labeled "solve" to find the path from the start position to the end position. If the program detects that the maze is invalid (eg. having 2 start positions), the text will display "invalid maze" and
+the algorithm will not attempt to solve it. If the maze is valid and solvable, the path will be drawn from the start to end. The path will of course avoid the walls. It will also be colored blue as to differentiate from the grid blocks.
