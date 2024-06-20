@@ -1,6 +1,22 @@
-Hello, this is a program that solves a maze. You can build your maze using a grid and the blocks provided and increase/decrease the number of rows and columns using their respective labeled buttons.
-While the algorithm is computing the solution, the text will display "loading...". Once the maze is solved (or the program determines the maze is unsolvable), the text will be replaced with the respective result.
-One thing to note is that my algorithm performs much faster when there is a more complete maze. What I mean by this is that if there are more walls (less open paths), the algorithm will produce a result in a few milliseconds. By contrast, if you build a 100 x 100 maze with a
-very small amount of walls, it might take a minute or two for the algorithm to finish computing as there are more paths it needs to explore. 
-After you are done building your maze, you can click the cyan button labeled "solve" to find the path from the start position to the end position. If the program detects that the maze is invalid (eg. having 2 start positions), the text will display "invalid maze" and
-the algorithm will not attempt to solve it. If the maze is valid and solvable, the path will be drawn from the start to end. The path will of course avoid the walls. It will also be colored blue as to differentiate from the grid blocks.
+# Maze Solver
+## Overview
+### Welcome to the Maze Solver project! This project allows users to create their own maze by placing walls, defining start and end positions, and adjusting the grid size. Once the maze is built, users can click a button to solve the maze using a pathfinding algorithm  based on Manhattan distance.
+
+## Features
+### Interactive Maze Builder: Users can click on grid blocks to place walls, and set start and end positions.
+### Adjustable Grid Size: Users can change the size of the grid to create different maze complexities.
+### Maze Solving: Click a button to solve the maze and visualize the solution path.
+### Pathfinding Algorithm: Utilizes a Manhattan distance-based search to find the shortest path.
+### The blue path that appears after the solve button is clicked is the path from the start to the end position. If the maze is unsolvable, no path will appear and the text will say unsolvable maze.
+
+## Installation Prerequisites
+### Java 8 or higher
+### A Java IDE (e.g., IntelliJ IDEA, Eclipse)
+
+## Images:
+![image](https://github.com/NarenNandakumar/MazeSolver/assets/145394757/2224622d-46b8-4a63-935e-02fff0290af3)
+![image](https://github.com/NarenNandakumar/MazeSolver/assets/145394757/58eb8fb1-ce93-4c35-b69c-8cc55a997bfd)
+![image](https://github.com/NarenNandakumar/MazeSolver/assets/145394757/df60cce7-abce-4f3f-9122-1a59b24a771e)
+
+## Author:
+### Naren Nandakumar
