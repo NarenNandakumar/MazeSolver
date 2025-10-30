@@ -13,10 +13,5 @@
 ### Java 8 or higher
 ### A Java IDE (e.g., IntelliJ IDEA, Eclipse)
 
-## Images:
-![image](https://github.com/NarenNandakumar/MazeSolver/assets/145394757/2224622d-46b8-4a63-935e-02fff0290af3)
-![image](https://github.com/NarenNandakumar/MazeSolver/assets/145394757/58eb8fb1-ce93-4c35-b69c-8cc55a997bfd)
-![image](https://github.com/NarenNandakumar/MazeSolver/assets/145394757/df60cce7-abce-4f3f-9122-1a59b24a771e)
-
 ## Author:
 ### Naren Nandakumar
