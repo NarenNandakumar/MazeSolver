@@ -6,7 +6,7 @@
 ### Interactive Maze Builder: Users can click on grid blocks to place walls, and set start and end positions.
 ### Adjustable Grid Size: Users can change the size of the grid to create different maze complexities.
 ### Maze Solving: Click a button to solve the maze and visualize the solution path.
-### Pathfinding Algorithm: Utilizes a Manhattan distance-based search to find the shortest path.
+### Pathfinding Algorithm: Utilizes a Manhattan, Chebyshev, or Euclidean (choosable) distance-based search to find the shortest path.
 ### The blue path that appears after the solve button is clicked is the path from the start to the end position. If the maze is unsolvable, no path will appear and the text will say unsolvable maze.
 
 ## Installation Prerequisites
